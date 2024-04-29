@@ -19,7 +19,7 @@ export const ChatForm = () => {
 
   return (
     <form ref={ref} onSubmit={onSubmitForm} className="my-16">
-      <fieldset className="w-[366px] max-w-[100%] border-themeRed bg-transparent bg-white rounded-full border-2 py-4 px-6 flex justify-between">
+      <fieldset className="shadow-lg w-[366px] max-w-[100%] border-themeRed bg-transparent bg-white rounded-full border-2 py-4 px-6 flex justify-between">
         <input
           disabled={context.loadingBlogsId !== undefined}
           className="disabled:opacity-50 w-full text-sm outline-none text-themeBlue border-none bg-transparent placeholder-themeBlue"

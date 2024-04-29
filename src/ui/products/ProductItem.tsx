@@ -21,7 +21,7 @@ export const ProductItem = ({ product }: { product: Product }) => {
   return (
     <Link href={product.url}>
       <li
-        className="w-[170px] h-[262px] border-2 border-themeMedium bg-white rounded-lg flex-shrink-0 overflow-hidden p-4 flex flex-col"
+        className="w-[170px] h-[262px] shadow-lg bg-white rounded-lg flex-shrink-0 overflow-hidden p-4 flex flex-col"
         key={product.id}
       >
         <img

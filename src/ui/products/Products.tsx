@@ -11,7 +11,7 @@ export const Products = ({ products }: { products?: Product[] }) => {
       <p className="mb-4">
       Here is some relevant gear you might be interested in:
       </p>
-      <ul className="flex gap-4 overflow-scroll pr-6">
+      <ul className="flex gap-4 overflow-scroll pr-6 pb-4">
         {products.map((p) => (
           <ProductItem product={p} key={p.id} />
         ))}
