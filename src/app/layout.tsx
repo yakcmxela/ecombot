@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Cinzel_Decorative } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 import classNames from "classnames";
 import "./globals.css";
 
@@ -27,6 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics/>
       <body
         className={classNames(
           Cinzel.className,
